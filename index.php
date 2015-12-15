@@ -1,4 +1,4 @@
 <?php
-require_once 'Framework/Boot.php';
-$boot = new Framework\Boot();
+require __DIR__ . '/vendor/autoload.php';
+$boot = new Bluejacket\Boot();
 ?>
