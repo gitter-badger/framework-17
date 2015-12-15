@@ -4,6 +4,13 @@
     "type": "project",
     "description": "Bluejacket Framework",
     "keywords": ["bluejacket","main","framework","php"],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Oytun OZDEMIR",
+            "email": "oytunozdemir@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-0": { "Application\\": "application/" }
     },
