@@ -1,0 +1,17 @@
+{
+    "name": "bluejacket-labs/framework",
+    "license": "MIT",
+    "type": "project",
+    "description": "Bluejacket Framework",
+    "keywords": ["bluejacket","main","framework","php"],
+    "autoload": {
+        "psr-0": { "Application\\": "application/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "bluejacket-labs/core": "*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
