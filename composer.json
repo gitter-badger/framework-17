@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "bluejacket-labs/core": "@dev"
+        "bluejacket-labs/core": "dev-master"
     },
     "config": {
         "bin-dir": "bin"
