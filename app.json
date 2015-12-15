@@ -1,0 +1,7 @@
+{
+  "name": "Bluejacket PHP Framework",
+  "description": "Bluejacket for Business Developers",
+  "repository": "https://github.com/upsf-labs/bluejacket",
+  "logo": "https://raw.githubusercontent.com/upsf-labs/bluejacket/master/logo.png",
+  "keywords": ["bluejacket", "framework", "php", "blue", "jacket"]
+}
