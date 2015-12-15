@@ -1,6 +1,6 @@
 <?php
 namespace Application;
-use Bluejacket\Framework\Core\Controller;
+use Bluejacket\Core\Controller;
 class HomeController extends Controller
 {
 	function index(){

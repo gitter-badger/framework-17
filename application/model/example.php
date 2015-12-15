@@ -1,6 +1,6 @@
 <?php
 namespace Application;
-use Bluejacket\Framework\Core\Model;
+use Bluejacket\Core\Model;
 class Example extends Model
 {
 	public function table(){
