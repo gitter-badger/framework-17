@@ -18,6 +18,9 @@
         "php": ">=5.4",
         "bluejacket-labs/core": "dev-master"
     },
+    "require-dev": {
+        "bluejacket-labs/core": "dev-master"
+    },
     "config": {
         "bin-dir": "bin"
     },
