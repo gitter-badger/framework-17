@@ -16,9 +16,10 @@
     },
     "require": {
         "php": ">=5.4",
-        "bluejacket-labs/core": "*"
+        "bluejacket-labs/core": "@dev"
     },
     "config": {
         "bin-dir": "bin"
-    }
+    },
+    "minimum-stability": "dev"
 }
