@@ -1,5 +1,7 @@
 <?php
-class HomeController extends Framework\Core\Controller
+namespace Application;
+use Bluejacket\Framework\Core\Controller;
+class HomeController extends Controller
 {
 	function index(){
 		global $config;
