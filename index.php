@@ -5,6 +5,5 @@ $bootstrap = new Bluejacket\Boot(array(
   "database" => "config/database.json",
   "security" => "config/security.json",
   "types" => "config/types.json"
-));
-$bootstrap::dump();
+))->dump();
 ?>
