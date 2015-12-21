@@ -15,5 +15,5 @@ Route::get('/red',function(){
 	header("Location: ".$url);
 });
 
-Route::redirect('/about','http://bluejacket.upsfcorp.com');
+Route::redirect('/about','http://bluejacket.io');
 ?>

@@ -1,7 +1,5 @@
 {
-  "title": "Bluejacket",
-  "description": "Bluejacket Framework Web Page",
-  "keywords": ["bluejacket", "framework", "development", "web", "php"],
   "application": "application/",
   "public": "public/",
+  "route": "application/route.php"
 }
