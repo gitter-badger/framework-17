@@ -1,15 +1,13 @@
 {
+  "driver": "mysql",
+  "server": "localhost",
+  "username": "",
+  "password": "",
+  "port": "3306",
+  "charset": "utf8",
   "database":{
-    "driver": "mysql",
-    "server": "localhost",
-    "username": "",
-    "password": "",
-    "port": "3306",
-    "charset": "utf8",
-    "database":{
-      "dev": "",
-      "test": "",
-      "production": ""
-    }
+    "dev": "",
+    "test": "",
+    "production": ""
   }
 }

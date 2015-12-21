@@ -1,22 +1,17 @@
 {
-  "types": [
-    {
-      "name": "dev",
-      "ssl": false,
-      "cache": true,
-      "debug": true
-    },
-    {
-      "name": "test",
-      "ssl": false,
-      "cache": false,
-      "debug": false
-    },
-    {
-      "name": "production",
-      "ssl": false,
-      "cache": true,
-      "debug": false
-    },
-  ]
+  "dev":{
+    "ssl": false,
+    "cache": true,
+    "debug": true
+  },
+  "test": {
+    "ssl": false,
+    "cache": false,
+    "debug": false
+  },
+  "production":{
+    "ssl": false,
+    "cache": true,
+    "debug": false
+  }
 }
