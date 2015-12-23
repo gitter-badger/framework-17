@@ -5,8 +5,8 @@ class HomeController extends Controller
 {
 	function index(){
 		global $config;
-		$this->view = new Framework\Core\View("home");
-		$this->html = new Framework\Web\HTML();
+		$this->view = new Bluejacket\Core\View("home");
+		$this->html = new Bluejacket\Web\HTML();
 		$this->view->set("title",$this->html->title($config['title']));
 		$this->view->set("temp_dir","Application/template/home");
 

@@ -1,5 +1,5 @@
 <?php
-use Bluejacket\Core;
+use Bluejacket\Core\Route;
 Route::root("GET",array(
 	'controller' => 'home',
 	'action' => 'index'
