@@ -9,6 +9,12 @@ Before install composer https://getcomposer.org/ web site. Or;
 ```
 $ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer
 ```
+Automaticaly install with composer;
+```
+$ composer create-project bluejacket-labs/framework <project name>
+```
+
+---
 
 
 Clone project with;
@@ -22,9 +28,4 @@ $ cd <project folder>
 Install required packages with composer;
 ```
 $ composer install && composer update
-```
-
-Automaticaly install with composer;
-```
-$ composer create-project bluejacket-labs/framework <project name>
 ```
