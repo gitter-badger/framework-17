@@ -5,15 +5,7 @@ Route::root("GET",array(
 	'action' => 'index'
 ));
 
-Route::get('/home',array(
-	'controller' => 'home',
-	'action' => 'index'
-));
-
-Route::get('/red',function(){
-	$url = $_GET['u'];
-	header("Location: ".$url);
+Route::get('/_profiler',function(){
+	echo "Profiler Page";
 });
-
-Route::redirect('/about','http://bluejacket.io');
 ?>
