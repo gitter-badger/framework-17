@@ -1,20 +1,13 @@
 <?php
-namespace Application;
+namespace Application\Model;
 use Bluejacket\Core\Model;
 class Example extends Model
 {
-	private $table = "";
+	private $table = "example";
 
 	private $scheme = array(
-
-	);
-
-	private $primary = array(
-
-	);
-
-	private $search = array(
-
+            "data1" => "TEXT",
+            "data2" => "TEXT"
 	);
 }
 ?>

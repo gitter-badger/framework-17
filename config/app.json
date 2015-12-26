@@ -1,6 +1,6 @@
 {
-  "application": "application/",
-  "public": "public/",
-  "cache": "application/cache/",
+  "application": "application",
+  "public": "public",
+  "cache": "application/cache",
   "route": "application/route.php"
 }
