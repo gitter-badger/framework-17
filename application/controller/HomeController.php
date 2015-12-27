@@ -1,5 +1,5 @@
 <?php
-namespace Application\Controller;
+namespace Application;
 use Bluejacket\Core\Controller;
 class HomeController extends Controller
 {
