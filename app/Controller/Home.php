@@ -1,6 +1,8 @@
 <?php
 namespace App\Controller;
 use Bluejacket\Core\Controller;
+use Twig_Loader_Filesystem;
+use Twig_Environment;
 class Home extends Controller
 {
     function index(){
