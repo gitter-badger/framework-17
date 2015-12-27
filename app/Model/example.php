@@ -1,5 +1,5 @@
 <?php
-namespace Application\Model;
+namespace App\Model;
 use Bluejacket\Core\Model;
 class Example extends Model
 {

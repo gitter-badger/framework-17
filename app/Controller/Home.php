@@ -1,7 +1,7 @@
 <?php
-namespace Application\Controller;
+namespace App\Controller;
 use Bluejacket\Core\Controller;
-class HomeController extends Controller
+class Home extends Controller
 {
 	function index(){
 		echo "Hello World! This is HomeController in application/controller/HomeController.php";
