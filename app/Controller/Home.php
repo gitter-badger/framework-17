@@ -11,8 +11,7 @@ class Home extends Controller
         $twig = new Twig_Environment($loader, array(
             'cache' => 'app/Cache',
         ));
-        /* test */
-        $template = $twig->loadTemplate('index.html.twig');
+        $template = $twig->loadTemplate('homepage.html.twig');
         echo $template->render();
     }
 }
