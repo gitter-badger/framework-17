@@ -9,7 +9,7 @@ class Home extends Controller
         
         $loader = new Twig_Loader_Filesystem('app/View/home');
         $twig = new Twig_Environment($loader, array(
-            'cache' => 'app/Cache',
+            'cache' => false,
         ));
         $template = $twig->loadTemplate('homepage.html.twig');
         echo $template->render(array(
