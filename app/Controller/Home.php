@@ -12,7 +12,9 @@ class Home extends Controller
             'cache' => 'app/Cache',
         ));
         $template = $twig->loadTemplate('homepage.html.twig');
-        echo $template->render();
+        echo $template->render(array(
+            "server" => $_SERVER
+        ));
     }
 }
 ?>
