@@ -1,5 +1,5 @@
-{include=header}
-   	This view file is /Application/template/homepage.html
+{% include header.html.twig %}
+   	This view file is /app/View/home/homepage.html
     <br>
     <br>
     <code>
@@ -23,4 +23,4 @@
     <br>
     Server Software: {$.server.SERVER_SOFTWARE}
     </code>
-{include=footer}
+{% include footer.html.twig %}
