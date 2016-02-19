@@ -3,11 +3,8 @@ namespace App\Model;
 use Bluejacket\Core\Model;
 class Example extends Model
 {
-	private $table = "example";
+	private $table = "";
 
-	private $scheme = array(
-            "data1" => "TEXT",
-            "data2" => "TEXT"
-	);
+	private $scheme = array();
 }
 ?>
