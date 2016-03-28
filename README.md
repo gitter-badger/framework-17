@@ -1,2 +1,2 @@
-# Bluejacket Framwework Site
-Bluejacket Framework
+# bluejacket.io
+Bluejacket for Business Developers Web Site
