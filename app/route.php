@@ -1,4 +1,4 @@
 <?php
 use Bluejacket\Core\Route;
-Route::root("GET","Home@index");
+Route::root("GET", "Home@index");
 ?>
